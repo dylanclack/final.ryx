@@ -1,0 +1,21 @@
+---
+title: "Introduction to ryx"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction to ryx}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+The `ryx\` package has 4 functions, one main function and 3 functions that show information in different ways.
+
+```{r setup}
+library(final.ryx)
+```
